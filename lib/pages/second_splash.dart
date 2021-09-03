@@ -10,11 +10,12 @@ class SecondSplash extends StatelessWidget {
       body: SafeArea(
           child: Stack(
         children: [
-          Image.asset(
-            'assets/bg.jpg',
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height,
-            fit: BoxFit.fill,
+          Container(
+            decoration: BoxDecoration(
+                image: DecorationImage(
+              image: AssetImage('assets/bg.jpg'),
+              fit: BoxFit.fill,
+            )),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 70),

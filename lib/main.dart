@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sevendays/pages/first_getstarted.dart';
 import 'package:sevendays/pages/first_splash.dart';
+import 'package:sevendays/pages/second_getstarted.dart';
 import 'package:sevendays/pages/second_splash.dart';
 
 void main() => runApp(SevenDays());
@@ -13,7 +15,7 @@ class SevenDays extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SecondSplash(),
+      home: SecondGetstarted(),
     );
   }
 }
