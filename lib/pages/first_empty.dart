@@ -28,7 +28,7 @@ class FirstEmpty extends StatelessWidget {
                     ),
                     Text(
                       'We will delivery your package \n as soon as possible',
-                      style: lightTextStyleLight,
+                      style: regularTextStyleLight,
                       textAlign: TextAlign.center,
                     ),
                     SizedBox(

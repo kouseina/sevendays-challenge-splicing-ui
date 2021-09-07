@@ -9,7 +9,7 @@ TextStyle boldTextStyleLight = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
 );
 
-TextStyle lightTextStyleLight = GoogleFonts.poppins(
+TextStyle regularTextStyleLight = GoogleFonts.poppins(
   color: blackColor,
   fontSize: 16,
 );
@@ -30,4 +30,32 @@ TextStyle lightTextStyleDark = GoogleFonts.poppins(
   color: Colors.white,
   fontSize: 16,
   fontWeight: FontWeight.w300,
+);
+
+TextStyle pricingTextStyleDark = GoogleFonts.poppins(
+  color: Colors.white,
+  fontSize: 20,
+);
+
+TextStyle questionTextStyleDark = GoogleFonts.poppins(
+  color: Colors.white,
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+);
+
+TextStyle buttonTextStyleGreen = GoogleFonts.poppins(
+  color: Colors.white,
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle semiboldTextStyleLight = GoogleFonts.poppins(
+  color: Color(0xff121622),
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle regularTextStyleLightSecondary = GoogleFonts.poppins(
+  color: Color(0xff808EAB),
+  fontSize: 16,
 );
