@@ -14,7 +14,6 @@ class SecondEmpty extends StatelessWidget {
         children: [
           Image.asset(
             'assets/illustration_empty_2.png',
-            width: 375,
           ),
           Column(
             children: [
