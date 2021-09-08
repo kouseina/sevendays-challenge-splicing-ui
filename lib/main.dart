@@ -7,6 +7,7 @@ import 'package:sevendays/pages/first_signin.dart';
 import 'package:sevendays/pages/first_splash.dart';
 import 'package:sevendays/pages/second_empty.dart';
 import 'package:sevendays/pages/second_getstarted.dart';
+import 'package:sevendays/pages/second_pricing.dart';
 import 'package:sevendays/pages/second_rating.dart';
 import 'package:sevendays/pages/second_signin.dart';
 import 'package:sevendays/pages/second_splash.dart';
@@ -22,7 +23,7 @@ class SevenDays extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FirstPricing(),
+      home: SecondPricing(),
     );
   }
 }

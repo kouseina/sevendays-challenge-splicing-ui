@@ -170,7 +170,7 @@ class _FirstPricingState extends State<FirstPricing> {
         items: [
           BottomNavigationBarItem(
             icon: Padding(
-              padding: const EdgeInsets.only(top: 12, left: 7),
+              padding: const EdgeInsets.only(top: 14, left: 7),
               child: Text(
                 'Upgrade Now',
                 style: GoogleFonts.poppins(
